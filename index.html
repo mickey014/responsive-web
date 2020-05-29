@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>   
+    <div class="container">
+
+        <header class="header">
+            <div class="logo">
+                <h3>Logo</h3>
+            </div>
+
+            <nav class="navbar" id="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact us</a></li>
+                    <li><a href="#ourteam">Ourteam</a></li>
+                </ul>
+            </nav>
+
+            <div class="burger-menu" id="burger-menu">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+        </header>
+
+        <div class="banner-image" id="home">
+            <div class="banner-content">
+                <h1>Welcome to my <span>Website.</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, nisi!</p>
+            </div>
+        </div>
+
+        <div class="about" id="about">
+            <h1 class="title">About us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium consequatur pariatur tempore voluptate excepturi deleniti, nostrum tempora earum ducimus, eum quasi sapiente inventore. Explicabo suscipit mollitia magni pariatur harum, incidunt, cumque numquam, quo ducimus alias minus nobis id! Itaque, voluptas a delectus quibusdam eos sit. Veritatis ad exercitationem quia ducimus nulla ea laboriosam ex voluptatibus et numquam quae hic a nisi magni temporibus, aliquam quibusdam aspernatur consectetur quisquam accusamus sint blanditiis velit. Quaerat, quis nisi?</p>
+            <div class="btn"><a href="#">Learn More</a></div>
+        </div>
+
+        <div class="services" id="services">
+            <h1 class="title">Services</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio rem tenetur laborum dolorem ex perspiciatis neque tempora? Sed illum dolorum consequatur, labore rerum laborum minus!</p>
+            <div class="services-item">
+                <div class="diff-service-item">
+                    <img src="img/service1.png" alt="">
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, debitis autem aliquam natus sunt deleniti.</p>
+                </div>
+
+                <div class="diff-service-item">
+                    <img src="img/service2.png" alt="">
+                    <h3>App Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, debitis autem aliquam natus sunt deleniti.</p>
+                </div>
+
+                <div class="diff-service-item">
+                    <img src="img/service3.png" alt="">
+                    <h3>Game Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, debitis autem aliquam natus sunt deleniti.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact" id="contact">
+            <h1 class="title">Contact us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita corporis nostrum sint eius nulla voluptate impedit voluptatibus. Alias molestias harum porro rerum libero minus? Officiis!</p>
+            <div class="form-wrapper">
+                <div class="form-input">
+                    <input type="text" placeholder="Subject" class="subject">
+                </div>
+
+                <div class="form-input">
+                    <textarea placeholder="Message" class="message"></textarea>
+                </div>
+                    <div class="btn"><a href="#">Submit</a></div>                
+            </div>
+        </div>
+
+        <div class="ourteam" id="ourteam">
+            <h1 class="title">Our Team</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere possimus ipsam quibusdam, autem rem omnis sed est voluptatibus obcaecati dolore molestias dolorum esse, exercitationem ipsa.</p>
+            <div class="ourteam-wrapper">
+                <div class="team1 team">
+                    <div class="team-members">
+                        <img src="img/team1.jpg" alt="">
+                    </div>
+
+                    <div class="team-members">
+                        <img src="img/team2.jpg" alt="">
+                    </div>
+
+                    <div class="team-members">
+                        <img src="img/team3.jpg" alt="">
+                    </div>                
+                </div>
+
+                <div class="team2 team">
+                    <div class="team-members">
+                        <img src="img/team4.jpg" alt="">
+                    </div>
+
+                    <div class="team-members">
+                        <img src="img/team5.jpg" alt="">
+                    </div>
+
+                    <div class="team-members">
+                        <img src="img/team6.jpg" alt="">
+                    </div>                
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <a href="#">&copy; 2020 kirkDev</a>
+        </footer>
+
+    </div>
+
+    <script>
+        document.querySelector('#burger-menu').addEventListener('click', function () {
+            document.querySelector('#nav').classList.toggle('active');
+        })
+    </script>
+        
+</body>
+</html>
